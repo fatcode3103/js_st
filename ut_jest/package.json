@@ -1,0 +1,16 @@
+{
+    "name": "ut_jest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "cloneArray.js",
+    "type": "module",
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
