@@ -2,4 +2,8 @@ function isOddNumber(number) {
     return number % 2 === 1;
 }
 
-module.exports = isOddNumber;
+function cloneArray(arr) {
+    return [...arr];
+}
+
+module.exports = { isOddNumber, cloneArray };
